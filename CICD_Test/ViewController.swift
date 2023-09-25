@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         print("test Crash")
         print("test App Center")
         print("test From feature 1")
+        print("test From feature 3")
 //        Crashes.generateTestCrash()
     }
 
