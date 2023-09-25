@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     }
     @IBAction func loginTapped(_ sender: Any) {
         print("test Crash")
-        Crashes.generateTestCrash()
+//        Crashes.generateTestCrash()
     }
 
 }
