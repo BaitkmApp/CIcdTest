@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func loginTapped(_ sender: Any) {
+        print("test Crash")
         Crashes.generateTestCrash()
     }
 
