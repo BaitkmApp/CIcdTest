@@ -6,14 +6,18 @@
 //
 
 import UIKit
+import AppCenterCrashes
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var Password: UITextField!
+    @IBOutlet weak var userName: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func loginTapped(_ sender: Any) {
+        Crashes.generateTestCrash()
+    }
 
 }
 
